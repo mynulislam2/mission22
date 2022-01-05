@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+section,
+footer {
+    margin-top: 70px;
+}
+
+.makeFlex {
+    display: flex;
+    margin: 0 auto;
+    width: 1100px
+}
+
+
+/* header css start */
+
+.HeaderSection {
+    width: 100%;
+}
+
+#headertitles {
+    border-left: 3px solid #fb3416;
+    height: 120px;
+}
+
+#headertitles h1 {
+    text-align: left;
+    font-size: 50px;
+    line-height: 33px;
+    margin-left: 20px;
+}
+
+#headertitles h4 {
+    color: #f1662f;
+    font-size: 50px;
+    line-height: 0px;
+    margin-left: 20px;
+}
+
+.button {
+    padding: 15px 25px;
+    background-image: linear-gradient(#f1662f, #fb3416);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.blocks {
+    width: 50%;
+}
+
+.blocks div {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.blocks img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+/* header css finish */
+
+
+/* My mission sec start */
+
+.myMissionSec img {
+    width: 50%;
+}
+
+.myMissionSec h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.Mission,
+.Vision,
+.Goals {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 350px;
+    padding: 2%;
+    height: 300px;
+    margin-left: 15px;
+}
+
+.Mission {
+    margin-left: 0px;
+    background-color: rgba(178, 194, 238, 0.63);
+}
+
+.Goals {
+    background-color: rgba(204, 149, 221, 0.644);
+}
+
+.Vision {
+    background-color: rgba(240, 179, 240, 0.644);
+}
+
+
+/* My mission sec finish */
+
+
+/* developsLimit section start */
+
+.developsLimit img {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.developsLimit div {
+    width: 56%;
+    margin-top: 30px;
+}
+
+.develop-community {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+/* developsLimit section finish */
+
+
+/* footer start */
+
+footer {
+    height: 130px;
+    padding-top: 10px;
+    background-color: rgb(8, 2, 22);
+    color: blanchedalmond;
+    font-family: 'Lobster', cursive;
+}
+
+footer p {
+    font-size: 12px;
+    font-family: cursive, 'The Nautigal';
+    text-align: center;
+}
